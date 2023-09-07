@@ -1,0 +1,34 @@
+.rocket {
+  display: flex;
+  gap: 1em;
+  margin: 1em 1.5em;
+}
+
+.rocket img {
+  width: 250px;
+  height: 250px;
+}
+
+.rocket-body {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+  font-weight: 600;
+}
+
+.rocket-body span {
+  background: rgb(2, 146, 2);
+  margin-right: 0.5em;
+  padding: 0.125em 0.25em;
+  border-radius: 3px;
+  color: #fff;
+  font-weight: 500;
+  font-size: 0.8em;
+}
+
+.rocket-body button {
+  width: 30%;
+  padding: 0.5em;
+  background: rgb(45, 107, 231);
+  color: white;
+}

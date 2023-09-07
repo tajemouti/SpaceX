@@ -1,0 +1,20 @@
+table {
+  font-size: 0.8rem;
+  border: 1px solid #eee;
+}
+
+thead {
+  font-size: 1rem;
+}
+
+button {
+  border-radius: 5px;
+  padding: 5px 10px;
+  font-weight: bold;
+  min-width: 150px;
+}
+
+.mission-name {
+  font-weight: bold;
+  font-size: 1rem;
+}

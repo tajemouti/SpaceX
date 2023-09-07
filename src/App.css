@@ -1,0 +1,51 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css');
+
+.App {
+  margin: 10px 50px;
+  font-family: 'Montserrat', serif;
+  padding: 1% 3%;
+}
+
+header {
+  display: flex;
+  justify-content: space-between;
+  margin: 0 0 1% 0;
+}
+
+.logo {
+  display: flex;
+  align-items: center;
+  gap: 2.5em;
+  font-size: 0.8rem;
+  color: #777;
+}
+
+.logo img {
+  width: 4.5em;
+  height: 4.5em;
+}
+
+header ul {
+  display: flex;
+  list-style-type: none;
+}
+
+.links {
+  display: flex;
+  align-items: center;
+  gap: 1.5em;
+}
+
+.link {
+  color: #333;
+  text-decoration: none;
+  transition: color 0.3s;
+}
+
+.link.active {
+  color: #007bff;
+  border-bottom: 2px solid #007bff;
+  padding-bottom: 2px;
+}
