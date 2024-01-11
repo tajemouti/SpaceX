@@ -6,6 +6,7 @@
   - [🛠 Built With](#built-with)
     - [Tech Stack](#tech-stack)
     - [Key Features](#key-features)
+  - [🚀 Live Demo](#live-demo)
 - [💻 Getting Started](#getting-started)
   - [Setup](#setup)
   - [Prerequisites](#prerequisites)
@@ -24,7 +25,7 @@
 **[Space Travelers' Hub]** is a redux/react web application that works with the real live data from the SpaceX API. The task is to build a web application for a company that provides commercial and scientific space travel services. The application will allow users to book rockets and join selected space missions.
 
 ## 🛠 Built With <a name="built-with"></a>
-React.js, Redux.js, HTML/JavaScript linters using ES6 syntax.
+React.js, Redux.js.
 
 ### Tech Stack <a name="tech-stack"></a>
 
@@ -36,16 +37,15 @@ React.js, Redux.js, HTML/JavaScript linters using ES6 syntax.
   <summary>Redux</summary>
 </details>
 
-<details>
-  <summary>ES6</summary>
-</details>
-
 ### Key Features <a name="key-features"></a>
 
-- **[React Library]**
-- **[Redux js]**
-- **[Linters implementation]**
-- **[Space webapp]**
+- **[SpaceX API data]**
+- **[Join missions]**
+- **[Rockets booking]**
+
+## 🚀 Live Demo <a name="live-demo"></a>
+
+- [Live Demo Link](https://steady-halva-c6ed0d.netlify.app/)
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
@@ -53,18 +53,18 @@ React.js, Redux.js, HTML/JavaScript linters using ES6 syntax.
 
 ### Setup <a name="setup"></a>
 
-In order to use this project.. Clone this repository to your desired folder by pasting this command in your command line interface:
+To use this project.. Clone this repository to your desired folder by running this command:
 
-  https://github.com/Kaiserabbas/Space-Travelers-Hub/
+```
+git clone https://github.com/tajemouti/SpaceX.git
+```
 
 ### Prerequisites <a name="prerequisites"></a>
 
   Node.js
   React.js
   Redux.js
-  ES6
   Git
-  HTML/JavaScript linters
 
 ### Install <a name="install"></a>
 
@@ -99,9 +99,9 @@ npm test
 
 ## 🔭 Future Features <a name="future-features"></a>
 
-- [ ] **[A medium fedility wire-frame application]**
-- [ ] **[Space web application]**
-- [ ] **[Secure deployment Render]**
+- **[User Authentication]**
+- **[Intuitive UI]**
+- **[Social media integration]**
 
 <p align="right">(<a href="#readme-top">back to top</a>)</p>
 
